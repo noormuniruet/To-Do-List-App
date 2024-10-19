@@ -1,29 +1,36 @@
-To-Do List App with Room Database in Kotlin  
+# **To-Do List App with Room Database in Kotlin**  
 
-A simple To-Do List Android App built using Kotlin, Room Database, ViewModel, and LiveData. The app allows users to:
--> Add tasks  
--> Delete tasks  
--> Mark tasks as completed  
--> View all tasks in a RecyclerView  
--> Persist data locally using Room 
+A simple **To-Do List Android App** built using Kotlin, **Room Database**, **ViewModel**, and **LiveData**. The app allows users to:
+- Add tasks  
+- Delete tasks  
+- Mark tasks as completed  
+- View all tasks in a RecyclerView  
+- Persist data locally using **Room**  
+
 This project follows the MVVM (Model-View-ViewModel) architecture pattern to keep the code organized and easy to maintain.
 
-Features
--> Add, update, and delete tasks.
--> Mark tasks as completed with a checkbox.
--> All tasks are saved locally using Room Database.
--> Uses View Binding for easier UI management.
--> Follows MVVM architecture for clean separation of concerns.
+---
 
-Getting Started
+## **Features**
+- Add, update, and delete tasks.
+- Mark tasks as completed with a checkbox.
+- All tasks are saved locally using **Room Database**.
+- Uses **View Binding** for easier UI management.
+- Follows MVVM architecture for clean separation of concerns.
 
-Prerequisites
+---
+
+## **Getting Started**
+
+### **Prerequisites**
 Make sure you have the following installed:
--> Android Studio (latest version)
--> Kotlin enabled in your project
--> Internet connection to sync Gradle dependencies
+- **Android Studio** (latest version)
+- **Kotlin** enabled in your project
+- Internet connection to sync Gradle dependencies
 
-Installation
+---
+
+## **Installation**
 
 1. **Clone the Repository:**
    ```bash
@@ -125,8 +132,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## **Contact**
 
 If you have any questions or feedback, feel free to reach out:
-- **Email**: your-email@example.com  
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: noorfatimagrw965@gmail.com  
 
 ---
 
@@ -136,5 +142,3 @@ If you have any questions or feedback, feel free to reach out:
 - JetBrains Kotlin Documentation  
 
 ---
-
-This README provides everything you need to upload the project to GitHub! Let me know if you need further customization or assistance.
