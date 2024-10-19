@@ -34,7 +34,7 @@ Make sure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/noormuniruet/todo-list-app.git
+   git clone https://github.com/noormuniruet/To-Do-List-App.git
    cd todo-list-app
    ```
    
@@ -53,18 +53,19 @@ Make sure you have the following installed:
 Add the following dependencies in your `app/build.gradle`:
 ```groovy
 dependencies {
-    implementation "androidx.room:room-runtime:2.5.2"
-    kapt "androidx.room:room-compiler:2.5.2"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1"
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
-    implementation 'androidx.recyclerview:recyclerview:1.3.1'
+    implementation ("androidx.room:room-runtime:2.5.2")
+    kapt ("androidx.room:room-compiler:2.5.2")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
+    implementation ("androidx.recyclerview:recyclerview:1.3.1")
 }
 ```
 
 Enable KAPT in the same `build.gradle` file:
 ```groovy
 plugins {
-    id 'kotlin-kapt'
+    id("kotlin-parcelize")
+    id("org.jetbrains.kotlin.kapt")
 }
 ```
 
@@ -104,14 +105,6 @@ app/
 
 ---
 
-## **Screenshots**
-
-Include screenshots of your app here (if applicable):
-- **Main Screen:**  
-  ![Main Screen](path/to/screenshot1.png)
-
----
-
 ## **Contributing**
 
 If you'd like to contribute to this project:
@@ -120,12 +113,6 @@ If you'd like to contribute to this project:
 3. Make your changes and commit them (`git commit -m 'Add feature'`).
 4. Push to your branch (`git push origin feature-branch`).
 5. Create a **Pull Request**.
-
----
-
-## **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
