@@ -34,7 +34,7 @@ Make sure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/todo-list-app.git
+   git clone https://github.com/noormuniruet/todo-list-app.git
    cd todo-list-app
    ```
    
